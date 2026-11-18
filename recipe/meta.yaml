@@ -23,7 +23,8 @@ requirements:
     - python >=3.0
     - nbsphinx
     - sphinx >=1.8
-
+    - docutils <0.21
+    
 test:
   imports:
     - nbsphinx_link
